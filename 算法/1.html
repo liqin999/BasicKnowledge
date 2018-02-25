@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function parse2Int(num){
+			return parseInt(num,10)
+		}
+
+		// parseInt(num,10)  用10进制去处理字符串，当碰到飞数字的字符
+		// 后面的将全部无视
+		console.log(parse2Int('12px'))
+		console.log(parse2Int('0x12'))
+		console.log(parse2Int('12'))
+	</script>
+</body>
+</html>
